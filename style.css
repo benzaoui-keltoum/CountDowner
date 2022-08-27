@@ -1,0 +1,33 @@
+body {
+  background-image: url(/montsea.jpg); /* The image used */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+
+  background-position: center; /* Center the image */
+  min-height: max-content; /*  height */
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.nextyear{
+
+top: 75%;
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /*space between elts*/
+  margin-top: 30%;
+}
+
+.content {
+  text-align: center;
+  font-weight: 600;
+}
